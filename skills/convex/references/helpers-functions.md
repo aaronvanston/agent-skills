@@ -151,7 +151,7 @@ const zodQuery = zCustomQuery(query, NoOp);
 export const myQuery = zodQuery({
   args: {
     userId: zid("users"),
-    email: z.email(),
+    email: z.string().email(),
     num: z.number().min(0),
     nullableBigint: z.nullable(z.bigint()),
     boolWithDefault: z.boolean().default(true),

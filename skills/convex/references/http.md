@@ -243,11 +243,11 @@ http.route({
 
 ## Hono Integration (convex-helpers)
 
-For advanced HTTP routing, use Hono via `convex-helpers`. See [helpers reference](helpers.md#hono-for-http-endpoints).
+For advanced HTTP routing, use Hono via `convex-helpers`. See [Hono reference](helpers-integrations.md#hono-for-http-endpoints).
 
 ## CORS Helper (convex-helpers)
 
-For production CORS with origin validation, use `corsRouter` from `convex-helpers/server/cors`. See [helpers reference](helpers.md#cors-support).
+For production CORS with origin validation, use `corsRouter` from `convex-helpers/server/cors`. See [security reference](helpers-security.md).
 
 ## References
 

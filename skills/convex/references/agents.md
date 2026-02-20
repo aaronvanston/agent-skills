@@ -545,7 +545,7 @@ export const searchKnowledge = tool({
   description: "Search the knowledge base",
   parameters: v.object({ query: v.string(), limit: v.optional(v.number()) }),
   handler: async (ctx, args) => {
-    return await ctx.runQuery(api.knowledge.search, {
+    return await ctx.runQuery(internal.knowledge.search, {
       query: args.query,
       limit: args.limit ?? 5,
     });

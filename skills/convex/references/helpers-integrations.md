@@ -196,9 +196,14 @@ import { usePaginatedQuery } from "convex-helpers/react";
 ## Import Reference
 
 ```typescript
+// Server
 import { HonoWithConvex, HttpRouterWithHono } from "convex-helpers/server/hono";
-import { ConvexQueryCacheProvider } from "convex-helpers/react/cache";
-import { useQuery, usePaginatedQuery } from "convex-helpers/react/cache";
-import { makeUseQueryWithStatus, usePaginatedQuery } from "convex-helpers/react";
 import { stream, mergedStream, MergedStream } from "convex-helpers/server/stream";
+
+// Client - cached queries (pick ONE usePaginatedQuery based on use case)
+import { ConvexQueryCacheProvider } from "convex-helpers/react/cache";
+import { useQuery, usePaginatedQuery } from "convex-helpers/react/cache"; // standard cached pagination
+import { makeUseQueryWithStatus } from "convex-helpers/react";
+// OR for paginator/getPage/stream .paginate() with custom cursors:
+// import { usePaginatedQuery } from "convex-helpers/react";
 ```
