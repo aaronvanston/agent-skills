@@ -16,6 +16,7 @@ Supports Claude Code, OpenCode, Codex, and Cursor.
 |-------|-------------|
 | [creating-presentations](skills/creating-presentations) | Bold, minimal, dark-first slide decks and pitch decks. Covers narrative structure, slide copywriting, visual design, speaker notes, and async investor decks. |
 | [convex](skills/convex) | Convex backend development - queries, mutations, actions, schemas, realtime, file storage, HTTP endpoints, cron jobs, migrations, AI agents, security, and convex-helpers patterns. 18 references, 11 rules. |
+| [tanstack-table](skills/tanstack-table) | TanStack Table v8 - column definitions, row models, sorting, filtering, pagination, grouping, expanding, row selection, virtualization, state management, and rendering. 15 references. |
 
 ## Contributing
 
