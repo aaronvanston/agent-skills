@@ -1,0 +1,23 @@
+README.md
+  67eecf1a632f2876 20-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.19",
+  "base_commit_sha": "8a5046c0ef79e9a42fe9bfd1af1f5b1670678d5a",
+  "prompts": {
+    "67eecf1a632f2876": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ec2004c2-47bd-48bd-af4b-f8bab84dfd8d",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Aaron Vanston <aaronvanston@users.noreply.github.com>",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 0,
+      "accepted_lines": 3,
+      "overriden_lines": 0
+    }
+  }
+}
